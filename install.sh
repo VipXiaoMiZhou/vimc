@@ -6,9 +6,9 @@
  if [ -d ~/.vim ];then
         mv ~/.vim ~/.vim.bak
         echo ".vim has been backuped to ~/.vim.bak"
-        cp -r ./.vim ~/
+        cp -r ./vim ~/.vim
     else
-        cp -r ./.vim ~/
+        cp -r ./vim ~/.vim
 fi
 
 # scane the ~ check wether the .vimrc exit
