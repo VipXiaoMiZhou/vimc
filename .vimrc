@@ -165,11 +165,11 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme evening 
+    colorscheme industry 
 catch
 endtry
 
-set background=dark
+set background=industry
 
 " Set extra options when running in GUI mode
 if has("gui_running")
