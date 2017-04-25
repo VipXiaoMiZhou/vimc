@@ -169,7 +169,6 @@ try
 catch
 endtry
 
-set background=industry
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -194,6 +193,13 @@ set nobackup
 set nowb
 set noswapfile
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim使用自动对起，也就是把当前行的对起格式应用到下一行
+" 智能的选择对起方式，对于类似C语言编写上很有用
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set autoindent
+set smartindent
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
