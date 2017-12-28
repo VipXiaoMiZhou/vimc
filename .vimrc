@@ -1,26 +1,4 @@
-"""""""""""""""""""""""""
-"Vundle
-"""""""""""""""""""""""""
-set nocompatible              " be iMproved, required
-filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-" " alternatively, pass a path where Vundle should install plugins
-call vundle#begin('~/.vim/Plugin/')
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'ascenator/L9', {'name': 'newL9'}
-Plugin 'quickfonts.vim'
-" tree
-Plugin 'The-NERD-tree'
-Plugin 'fugitive.vim'
-Plugin 'Xdebug'
-Plugin 'vim-addon-xdebug'
-Plugin 'Syntastic' 
-Plugin 'surround.vim' 
-call vundle#end()            " required
-filetype plugin indent on    " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
 "       Amir Salihefendic
@@ -195,8 +173,8 @@ set noswapfile
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim使用自动对起，也就是把当前行的对起格式应用到下一行
-" 智能的选择对起方式，对于类似C语言编写上很有用
+" vim使用自动对齐，也就是把当前行的对起格式应用到下一行
+" 智能的选择对起方齐，对于类似C语言编写上很有用
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set autoindent
 set smartindent
